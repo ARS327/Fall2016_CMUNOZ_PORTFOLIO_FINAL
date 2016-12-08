@@ -1,0 +1,154 @@
+body {
+    background: url(../images/Background1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center; 
+    overflow-y:hidden; 
+    overflow-x:hidden; 
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example1 {
+    0%   {left:35%; top:-100%;opacity: 0;}
+    100% {left:35%; top:3%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example1 {
+    0%   {left:35%; top:-100%;opacity: 0;}
+    100% {left:35%; top:3%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example2 {
+    0%   {left: 35%; top:200%;opacity: 0;}
+    100% {left: 35%; top:46%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example2 {
+    0%   {left: 35%; top:200%;opacity: 0;}
+    100% {left: 35%; top:46%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example3 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:98%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example3 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:98%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example4 {
+    0%   {left:66%; top:-100%;opacity: 0;}
+    100% {left:66%; top:48%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example4 {
+    0%   {left:66%; top:-100%;opacity: 0;}
+    100% {left:66%; top:48%;opacity: 1;}
+}
+
+portrait {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 0s; /* Safari 4.0 - 8.0 */
+    animation-name: example1;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    margin-left: -175px;
+}
+
+.column, .inner {
+    display: block;
+}
+
+Column1, .inner {
+    display: block;
+}
+
+
+Column1 {
+    position: absolute;
+    background-color: rgba(107, 187, 233, .25);
+    color:white;
+    padding: 15px;
+    width: 350px;
+    height: 400px;
+    -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: example2;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    vertical-align: top;
+    margin-left: -175px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+Column2 {
+    position: absolute;
+    background-color: rgba(107, 187, 233, .25);
+    color:white;
+    padding: 25px;
+    width: 500px;
+    height: 765px;
+    -webkit-animation-name: example4; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: example4;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    vertical-align: top;
+    margin-left: -250px;
+    margin-top: -382.5px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.inner {
+    /* specify padding, can be changed while remaining fixed width of .outer */
+    padding: 5px;
+    line-height: 70%;
+}
+
+.birb {
+ 			position: absolute;
+			-webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-name: example3;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+            margin-left: -40px;
+}
+
+.container {
+    position: absolute;
+            width: 1440px; /* Firefox needs this */
+            height: 850px; /* Height can be anything */
+    left: 50%;
+    top: 50%;
+margin-left: -720px;
+    margin-top: -450px;
+            }

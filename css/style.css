@@ -1,0 +1,595 @@
+body {
+background: url('../images/Background1.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+background-attachment: fixed;
+background-position: center; 
+display:block;
+    overflow-y:hidden; 
+    overflow-x:hidden; 
+}
+
+.Bottom {
+	position:absolute;
+    white-space:nowrap;
+    width:800px;
+	-webkit-animation-name: example7; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: example7;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+	margin-left: -400px;
+}
+.Bottom_elements {
+    color:#6bbbe9; 
+	text-align:center;
+    display:inline-block;
+    width:calc(50% - 16px);
+    width:-webkit-calc(50% - 16px);
+    margin:4px;
+}
+
+.Bottom_elements:hover {
+    opacity: .50;
+}
+
+a { 
+color: inherit;
+display: block; 
+} 
+
+.filter-drop-shadow {
+  -webkit-filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.75));
+  -moz-filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.75));
+  -ms-filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.75));
+  -o-filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.75));
+  filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.75));
+}
+
+.birb {
+ 			position: absolute;
+			-webkit-animation-name: example6; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 0s; /* Safari 4.0 - 8.0 */
+    animation-name: example6;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+            margin-left: -394px;
+			margin-top: -60px;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example1 {
+    0%   {left:21%; top:-100%;opacity: 0;}
+    100% {left:21%; top:4%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example1 {
+    0%   {left:21%; top:-100%;opacity: 0;}
+    100% {left:21%; top:4%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example2 {
+    0%   {left: 35.5%; top:-100%;opacity: 0;}
+    100% {left: 35.5%; top:4%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example2 {
+    0%   {left: 35.5%; top:-100%;opacity: 0;}
+    100% {left: 35.5%; top:4%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example3 {
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:4%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example3 {
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:4%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example4 {
+    0%   {left:64.5%; top:-100%;opacity: 0;}
+    100% {left:64.5%; top:4%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example4 {
+    0%   {left:64.5%; top:-100%;opacity: 0;}
+    100% {left:64.5%; top:4%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example5 {
+    0%   {left:79%; top:-100%;opacity: 0;}
+    100% {left:79%; top:4%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example5 {
+    0%   {left:79%; top:-100%;opacity: 0;}
+    100% {left:79%; top:4%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example6 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:85%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example6 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:85%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example7 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:77%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example7 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:77%;opacity: 1;}
+}
+
+rectangle1 {
+            position: absolute;
+            background:#000;
+-webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: example1;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+            height: 600px;
+            width: 150px;
+            min-width: 100px;
+            margin-left: -75px;
+box-shadow: 0px 4px 15px #000000;
+
+            }
+
+rectangle2 {
+            position: absolute;
+            background: #000;
+    -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-name: example2;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+            height: 600px;
+            width: 150px;
+            min-width: 100px;
+            margin-left: -75px;
+box-shadow: 0px 4px 15px #000000;
+            }
+
+rectangle3 {
+            position: absolute;
+            background: #000;
+    -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example3;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+            height: 600px;
+            width: 150px;
+            min-width: 100px;
+            margin-left: -75px;
+box-shadow: 0px 4px 15px #000000;
+            }
+
+rectangle4 {
+            position: absolute;
+            background: #000;
+    -webkit-animation-name: example4; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-name: example4;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+            height: 600px;
+            width: 150px;
+            min-width: 100px;
+            margin-left: -75px;
+box-shadow: 0px 4px 15px #000000;
+            }
+
+rectangle5 {
+            position: absolute;
+            background: #000;
+    -webkit-animation-name: example5; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: example5;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+            height: 600px;
+            width: 150px;
+            min-width: 100px;
+            margin-left: -75px;
+box-shadow: 0px 4px 15px #000000;
+            }
+
+/* ----------- Computers and Laptops ----------- */
+
+@media screen and (max-height: 855px){
+body    .container {
+        height: 800px; /* Height can be anything */
+        margin-top: -400px;
+            }
+    
+    /* Safari 4.0 - 8.0 */
+@-webkit-keyframes example1 {
+    0%   {left:21%; top:-100%;opacity: 0;}
+    100% {left:21%; top:.5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example1 {
+    0%   {left:21%; top:-100%;opacity: 0;}
+    100% {left:21%; top:.5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example2 {
+    0%   {left: 35.5%; top:-100%;opacity: 0;}
+    100% {left: 35.5%; top:.5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example2 {
+    0%   {left: 35.5%; top:-100%;opacity: 0;}
+    100% {left: 35.5%; top:.5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example3 {
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:.5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example3 {
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:.5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example4 {
+    0%   {left:64.5%; top:-100%;opacity: 0;}
+    100% {left:64.5%; top:.5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example4 {
+    0%   {left:64.5%; top:-100%;opacity: 0;}
+    100% {left:64.5%; top:.5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example5 {
+    0%   {left:79%; top:-100%;opacity: 0;}
+    100% {left:79%; top:.5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example5 {
+    0%   {left:79%; top:-100%;opacity: 0;}
+    100% {left:79%; top:.5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example6 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:85%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example6 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:85%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example7 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:75%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example7 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:75%;opacity: 1;}
+}
+
+    
+}
+
+@media screen and (Width: 1920px)
+and (Height: 1080px)
+and (-webkit-min-device-pixel-ratio: 1){
+			
+}
+
+@media screen and (Width: 2560px)
+and (Height: 1440px)
+and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi){
+      
+}
+
+@media screen and (Width: 1280px)
+and (Height: 1024px)
+and (-webkit-min-device-pixel-ratio: 1){
+			
+}
+
+@media screen and (Width: 1280px)
+and (Height: 1024px)
+and (-webkit-min-device-pixel-ratio: 1){
+			
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S4 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S5 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+
+
+.overlay    {  
+		Display:block;
+		left: 0;
+  position: absolute;
+  top: 0;
+		overflow:hidden;
+		z-index: 20;
+		 height: 600px;
+            width: 150px;
+		background:rgba(0,0,0,.75);
+               opacity:0;
+               -webkit-transition: opacity .25s ease;
+-moz-transition: opacity .25s ease;}
+
+rectangle1:hover .overlay {
+               opacity:1;}
+
+rectangle2:hover .overlay {
+               opacity:1;}
+               
+rectangle3:hover .overlay {
+               opacity:1;}
+
+rectangle4:hover .overlay {
+               opacity:1;}
+               
+rectangle5:hover .overlay {
+               opacity:1;}
+               
+
+.container {
+    position: absolute;
+            width: 1440px; /* Firefox needs this */
+            height: 850px; /* Height can be anything */
+    left: 50%;
+    top: 50%;
+margin-left: -720px;
+    margin-top: -450px;
+            }
