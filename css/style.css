@@ -30,6 +30,7 @@ display:block;
     width:calc(50% - 16px);
     width:-webkit-calc(50% - 16px);
     margin:4px;
+    font-size:100px;
 }
 
 .Bottom_elements:hover {
@@ -59,6 +60,8 @@ display: block;
     animation-delay: 0s;
     animation-fill-mode: forwards;
     opacity: 0;
+    height: 120px;
+    width: 788px;
             margin-left: -394px;
 			margin-top: -60px;
 }
@@ -145,6 +148,18 @@ display: block;
 @keyframes example7 {
     0%   {left:50%; top:200%;opacity: 0;}
     100% {left:50%; top:77%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example8 {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example8 {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 rectangle1 {
@@ -240,7 +255,7 @@ box-shadow: 0px 4px 15px #000000;
 
 /* ----------- Computers and Laptops ----------- */
 
-@media screen and (max-height: 855px){
+@media screen and (max-height: 880px){
 body    .container {
         height: 800px; /* Height can be anything */
         margin-top: -400px;
@@ -249,88 +264,133 @@ body    .container {
     /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example1 {
     0%   {left:21%; top:-100%;opacity: 0;}
-    100% {left:21%; top:.5%;opacity: 1;}
+    100% {left:21%; top:4%;opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example1 {
     0%   {left:21%; top:-100%;opacity: 0;}
-    100% {left:21%; top:.5%;opacity: 1;}
+    100% {left:21%; top:4%;opacity: 1;}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example2 {
     0%   {left: 35.5%; top:-100%;opacity: 0;}
-    100% {left: 35.5%; top:.5%;opacity: 1;}
+    100% {left: 35.5%; top:4%;opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example2 {
     0%   {left: 35.5%; top:-100%;opacity: 0;}
-    100% {left: 35.5%; top:.5%;opacity: 1;}
+    100% {left: 35.5%; top:4%;opacity: 1;}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example3 {
     0%   {left:50%; top:-100%;opacity: 0;}
-    100% {left:50%; top:.5%;opacity: 1;}
+    100% {left:50%; top:4%;opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example3 {
     0%   {left:50%; top:-100%;opacity: 0;}
-    100% {left:50%; top:.5%;opacity: 1;}
+    100% {left:50%; top:4%;opacity: 1;}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example4 {
     0%   {left:64.5%; top:-100%;opacity: 0;}
-    100% {left:64.5%; top:.5%;opacity: 1;}
+    100% {left:64.5%; top:4%;opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example4 {
     0%   {left:64.5%; top:-100%;opacity: 0;}
-    100% {left:64.5%; top:.5%;opacity: 1;}
+    100% {left:64.5%; top:4%;opacity: 1;}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example5 {
     0%   {left:79%; top:-100%;opacity: 0;}
-    100% {left:79%; top:.5%;opacity: 1;}
+    100% {left:79%; top:4%;opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example5 {
     0%   {left:79%; top:-100%;opacity: 0;}
-    100% {left:79%; top:.5%;opacity: 1;}
+    100% {left:79%; top:4%;opacity: 1;}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example6 {
     0%   {left:50%; top:200%;opacity: 0;}
-    100% {left:50%; top:85%;opacity: 1;}
+    100% {left:50%; top:81%;opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example6 {
     0%   {left:50%; top:200%;opacity: 0;}
-    100% {left:50%; top:85%;opacity: 1;}
+    100% {left:50%; top:81%;opacity: 1;}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example7 {
     0%   {left:50%; top:200%;opacity: 0;}
-    100% {left:50%; top:75%;opacity: 1;}
+    100% {left:50%; top:71%;opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example7 {
     0%   {left:50%; top:200%;opacity: 0;}
-    100% {left:50%; top:75%;opacity: 1;}
+    100% {left:50%; top:71%;opacity: 1;}
 }
 
+rectangle1 {
+            
+            height: 512px;
+            width: 128px;
+            min-width: 100px;
+            margin-left: -64px;
+
+            }
+
+rectangle2 {
+            
+            height: 512px;
+            width: 128px;
+            min-width: 100px;
+            margin-left: -64px;
+            }
+
+rectangle3 {
+           
+            height: 512px;
+            width: 128px;
+            min-width: 100px;
+            margin-left: -64px;
+            }
+
+rectangle4 {
+            height: 512px;
+            width: 128px;
+            min-width: 100px;
+            margin-left: -64px;
+            }
+
+rectangle5 {
+           
+            height: 512px;
+            width: 128px;
+            min-width: 100px;
+            margin-left: -64px;
+            }  
     
+body .overlay    {  
+		
+            height: 512px;
+            width: 128px;
+
+    }
 }
 
 @media screen and (Width: 1920px)
@@ -365,6 +425,18 @@ and (-webkit-min-device-pixel-ratio: 1){
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
+      
+body .container_mobile {
+    display: block;
+}
+
+body .container {
+    display: none;
+            }
+      
+      body {
+              overflow-y: visible; 
+      }
 
 }
 
@@ -393,6 +465,18 @@ and (-webkit-min-device-pixel-ratio: 1){
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
+body .container_mobile {
+    display: block;
+}      
+
+body .container {
+    display: none;
+            }
+      
+      body {
+              overflow-y: visible; 
+      }
+      
 }
 
 /* Portrait */
@@ -419,7 +503,18 @@ and (-webkit-min-device-pixel-ratio: 1){
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
+      
+      body .container_mobile {
+    display: block;
+}
 
+      body .container {
+    display: none;
+            }
+      body {
+              overflow-y: visible; 
+      }
+      
 }
 
 /* Portrait */
@@ -447,7 +542,19 @@ and (-webkit-min-device-pixel-ratio: 1){
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
+      
+      body .container_mobile {
+    display: block;
+}
 
+      body .container {
+    display: none;
+            }
+      
+      body {
+              overflow-y: visible; 
+      }
+      
 }
 
 /* Portrait */
@@ -476,6 +583,18 @@ and (-webkit-min-device-pixel-ratio: 1){
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 2) {
 
+      body .container_mobile {
+    display: block;
+}
+      
+      body .container {
+    display: none;
+            }
+      
+      body {
+              overflow-y: visible; 
+      }
+      
 }
 
 /* Portrait */
@@ -504,6 +623,18 @@ and (-webkit-min-device-pixel-ratio: 1){
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 3) {
 
+      body .container_mobile {
+    display: block;
+}
+      
+      body .container {
+    display: none;
+            }
+      
+      body {
+              overflow-y: visible; 
+      }
+      
 }
 
 /* Portrait */
@@ -532,6 +663,18 @@ and (-webkit-min-device-pixel-ratio: 1){
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 3) {
 
+      body .container_mobile {
+    display: block;
+}
+      
+      body .container {
+    display: none;
+            }
+      
+      body {
+              overflow-y: visible; 
+      }
+      
 }
 
 /* Portrait */
@@ -552,7 +695,1164 @@ and (-webkit-min-device-pixel-ratio: 1){
 
 }
 
+/* ----------- iPad mini ----------- */
 
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+      body    .container {
+        height: 800px; /* Height can be anything */
+        margin-top: -400px;
+            }
+    
+
+
+rectangle1 {
+            
+            height: 512px;
+            width: 128px;
+            min-width: 100px;
+            margin-left: -64px;
+
+            }
+
+rectangle2 {
+            
+            height: 512px;
+            width: 128px;
+            min-width: 100px;
+            margin-left: -64px;
+            }
+
+rectangle3 {
+           
+            height: 512px;
+            width: 128px;
+            min-width: 100px;
+            margin-left: -64px;
+            }
+
+rectangle4 {
+            height: 512px;
+            width: 128px;
+            min-width: 100px;
+            margin-left: -64px;
+            }
+
+rectangle5 {
+           
+            height: 512px;
+            width: 128px;
+            min-width: 100px;
+            margin-left: -64px;
+            }  
+    
+body .overlay    {  
+		
+            height: 512px;
+            width: 128px;
+
+    }
+       
+    body  .Bottom {
+
+    width:800px;
+	
+	margin-left: -400px;
+}
+body .Bottom_elements {
+  
+    width:calc(50% - 16px);
+    width:-webkit-calc(50% - 16px);
+    margin:4px;
+    font-size:75px;
+}
+      
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+body    .container {
+      width: 800px;
+     margin-left: -400px;
+            height: 1000px; /* Height can be anything */
+        margin-top: -500px;
+      }
+
+body .birb {
+ 			
+    height: 120px;
+    width: 688px;
+            margin-left: -344px;
+			margin-top: -60px;
+}  
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example1 {
+    0%   {left:13%; top:-100%;opacity: 0;}
+    100% {left:13%; top:10%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example1 {
+    0%   {left:13%; top:-100%;opacity: 0;}
+    100% {left:13%; top:10%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example2 {
+    0%   {left: 31.5%; top:-100%;opacity: 0;}
+    100% {left: 31.5%; top:10%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example2 {
+    0%   {left: 31.5%; top:-100%;opacity: 0;}
+    100% {left: 31.5%; top:10%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example3 {
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:10%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example3 {
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:10%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example4 {
+    0%   {left:68.5%; top:-100%;opacity: 0;}
+    100% {left:68.5%; top:10%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example4 {
+    0%   {left:68.5%; top:-100%;opacity: 0;}
+    100% {left:68.5%; top:10%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example5 {
+    0%   {left:87%; top:-100%;opacity: 0;}
+    100% {left:87%; top:10%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example5 {
+    0%   {left:87%; top:-100%;opacity: 0;}
+    100% {left:87%; top:10%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example6 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:72%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example6 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:72%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example7 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:69%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example7 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:69%;opacity: 1;}
+}      
+      
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+       body    .container {
+      width: 1200px;
+     margin-left: -600px;
+      }
+      
+            body .birb {
+ 			
+    height: 120px;
+    width: 788px;
+            margin-left: -394px;
+			margin-top: -60px;
+}  
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example1 {
+    0%   {left:21%; top:-100%;opacity: 0;}
+    100% {left:21%; top:4%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example1 {
+    0%   {left:21%; top:-100%;opacity: 0;}
+    100% {left:21%; top:5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example2 {
+    0%   {left: 35.5%; top:-100%;opacity: 0;}
+    100% {left: 35.5%; top:5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example2 {
+    0%   {left: 35.5%; top:-100%;opacity: 0;}
+    100% {left: 35.5%; top:5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example3 {
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example3 {
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example4 {
+    0%   {left:64.5%; top:-100%;opacity: 0;}
+    100% {left:64.5%; top:5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example4 {
+    0%   {left:64.5%; top:-100%;opacity: 0;}
+    100% {left:64.5%; top:5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example5 {
+    0%   {left:79%; top:-100%;opacity: 0;}
+    100% {left:79%; top:5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example5 {
+    0%   {left:79%; top:-100%;opacity: 0;}
+    100% {left:79%; top:5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example6 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:79%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example6 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:79%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example7 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:73%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example7 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:73%;opacity: 1;}
+}     
+      
+      
+}
+
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+      body    .container {
+        height: 800px; /* Height can be anything */
+        margin-top: -400px;
+            }
+    
+
+
+rectangle1 {
+            
+            height: 512px;
+            width: 128px;
+            min-width: 100px;
+            margin-left: -64px;
+
+            }
+
+rectangle2 {
+            
+            height: 512px;
+            width: 128px;
+            min-width: 100px;
+            margin-left: -64px;
+            }
+
+rectangle3 {
+           
+            height: 512px;
+            width: 128px;
+            min-width: 100px;
+            margin-left: -64px;
+            }
+
+rectangle4 {
+            height: 512px;
+            width: 128px;
+            min-width: 100px;
+            margin-left: -64px;
+            }
+
+rectangle5 {
+           
+            height: 512px;
+            width: 128px;
+            min-width: 100px;
+            margin-left: -64px;
+            }  
+    
+body .overlay    {  
+		
+            height: 512px;
+            width: 128px;
+
+    }
+      
+    body  .Bottom {
+
+    width:800px;
+	
+	margin-left: -400px;
+}
+body .Bottom_elements {
+  
+    width:calc(50% - 16px);
+    width:-webkit-calc(50% - 16px);
+    margin:4px;
+    font-size:75px;
+}
+      
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+      
+body    .container {
+      width: 800px;
+     margin-left: -400px;
+            height: 1000px; /* Height can be anything */
+        margin-top: -500px;
+      }
+
+            body .birb {
+ 			
+    height: 120px;
+    width: 688px;
+            margin-left: -344px;
+			margin-top: -60px;
+}  
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example1 {
+    0%   {left:13%; top:-100%;opacity: 0;}
+    100% {left:13%; top:10%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example1 {
+    0%   {left:13%; top:-100%;opacity: 0;}
+    100% {left:13%; top:10%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example2 {
+    0%   {left: 31.5%; top:-100%;opacity: 0;}
+    100% {left: 31.5%; top:10%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example2 {
+    0%   {left: 31.5%; top:-100%;opacity: 0;}
+    100% {left: 31.5%; top:10%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example3 {
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:10%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example3 {
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:10%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example4 {
+    0%   {left:68.5%; top:-100%;opacity: 0;}
+    100% {left:68.5%; top:10%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example4 {
+    0%   {left:68.5%; top:-100%;opacity: 0;}
+    100% {left:68.5%; top:10%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example5 {
+    0%   {left:87%; top:-100%;opacity: 0;}
+    100% {left:87%; top:10%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example5 {
+    0%   {left:87%; top:-100%;opacity: 0;}
+    100% {left:87%; top:10%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example6 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:72%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example6 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:72%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example7 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:69%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example7 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:69%;opacity: 1;}
+}      
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+       body    .container {
+      width: 1200px;
+     margin-left: -600px;
+      }
+      
+            body .birb {
+ 			
+    height: 120px;
+    width: 788px;
+            margin-left: -394px;
+			margin-top: -60px;
+}  
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example1 {
+    0%   {left:21%; top:-100%;opacity: 0;}
+    100% {left:21%; top:4%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example1 {
+    0%   {left:21%; top:-100%;opacity: 0;}
+    100% {left:21%; top:5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example2 {
+    0%   {left: 35.5%; top:-100%;opacity: 0;}
+    100% {left: 35.5%; top:5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example2 {
+    0%   {left: 35.5%; top:-100%;opacity: 0;}
+    100% {left: 35.5%; top:5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example3 {
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example3 {
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example4 {
+    0%   {left:64.5%; top:-100%;opacity: 0;}
+    100% {left:64.5%; top:5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example4 {
+    0%   {left:64.5%; top:-100%;opacity: 0;}
+    100% {left:64.5%; top:5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example5 {
+    0%   {left:79%; top:-100%;opacity: 0;}
+    100% {left:79%; top:5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example5 {
+    0%   {left:79%; top:-100%;opacity: 0;}
+    100% {left:79%; top:5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example6 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:79%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example6 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:79%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example7 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:73%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example7 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:73%;opacity: 1;}
+}     
+      
+}
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+      body    .container {
+        height: 800px; /* Height can be anything */
+        margin-top: -400px;
+            }
+    
+rectangle1 {
+            
+            height: 512px;
+            width: 128px;
+            min-width: 100px;
+            margin-left: -64px;
+
+            }
+
+rectangle2 {
+            
+            height: 512px;
+            width: 128px;
+            min-width: 100px;
+            margin-left: -64px;
+            }
+
+rectangle3 {
+           
+            height: 512px;
+            width: 128px;
+            min-width: 100px;
+            margin-left: -64px;
+            }
+
+rectangle4 {
+            height: 512px;
+            width: 128px;
+            min-width: 100px;
+            margin-left: -64px;
+            }
+
+rectangle5 {
+           
+            height: 512px;
+            width: 128px;
+            min-width: 100px;
+            margin-left: -64px;
+            }  
+    
+body .overlay    {  
+		
+            height: 512px;
+            width: 128px;
+
+    }
+      
+    body  .Bottom {
+
+    width:800px;
+	
+	margin-left: -400px;
+}
+body .Bottom_elements {
+  
+    width:calc(50% - 16px);
+    width:-webkit-calc(50% - 16px);
+    margin:4px;
+    font-size:75px;
+}
+      
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+      
+body    .container {
+      width: 800px;
+     margin-left: -400px;
+            height: 1000px; /* Height can be anything */
+        margin-top: -500px;
+      }
+
+            body .birb {
+ 			
+    height: 120px;
+    width: 688px;
+            margin-left: -344px;
+			margin-top: -60px;
+}  
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example1 {
+    0%   {left:13%; top:-100%;opacity: 0;}
+    100% {left:13%; top:10%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example1 {
+    0%   {left:13%; top:-100%;opacity: 0;}
+    100% {left:13%; top:10%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example2 {
+    0%   {left: 31.5%; top:-100%;opacity: 0;}
+    100% {left: 31.5%; top:10%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example2 {
+    0%   {left: 31.5%; top:-100%;opacity: 0;}
+    100% {left: 31.5%; top:10%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example3 {
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:10%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example3 {
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:10%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example4 {
+    0%   {left:68.5%; top:-100%;opacity: 0;}
+    100% {left:68.5%; top:10%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example4 {
+    0%   {left:68.5%; top:-100%;opacity: 0;}
+    100% {left:68.5%; top:10%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example5 {
+    0%   {left:87%; top:-100%;opacity: 0;}
+    100% {left:87%; top:10%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example5 {
+    0%   {left:87%; top:-100%;opacity: 0;}
+    100% {left:87%; top:10%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example6 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:72%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example6 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:72%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example7 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:69%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example7 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:69%;opacity: 1;}
+}      
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+       body    .container {
+      width: 1200px;
+     margin-left: -600px;
+      }
+      
+            body .birb {
+ 			
+    height: 120px;
+    width: 788px;
+            margin-left: -394px;
+			margin-top: -60px;
+}  
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example1 {
+    0%   {left:21%; top:-100%;opacity: 0;}
+    100% {left:21%; top:4%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example1 {
+    0%   {left:21%; top:-100%;opacity: 0;}
+    100% {left:21%; top:5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example2 {
+    0%   {left: 35.5%; top:-100%;opacity: 0;}
+    100% {left: 35.5%; top:5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example2 {
+    0%   {left: 35.5%; top:-100%;opacity: 0;}
+    100% {left: 35.5%; top:5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example3 {
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example3 {
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example4 {
+    0%   {left:64.5%; top:-100%;opacity: 0;}
+    100% {left:64.5%; top:5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example4 {
+    0%   {left:64.5%; top:-100%;opacity: 0;}
+    100% {left:64.5%; top:5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example5 {
+    0%   {left:79%; top:-100%;opacity: 0;}
+    100% {left:79%; top:5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example5 {
+    0%   {left:79%; top:-100%;opacity: 0;}
+    100% {left:79%; top:5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example6 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:79%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example6 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:79%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example7 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:73%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example7 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:73%;opacity: 1;}
+}     
+      
+}
+
+/* ----------- Galaxy Tab 10.1 ----------- */
+
+/* Portrait and Landscape */
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px) {
+
+      body    .container {
+        height: 800px; /* Height can be anything */
+        margin-top: -400px;
+            }
+    
+    
+
+rectangle1 {
+            
+            height: 512px;
+            width: 128px;
+            min-width: 100px;
+            margin-left: -64px;
+
+            }
+
+rectangle2 {
+            
+            height: 512px;
+            width: 128px;
+            min-width: 100px;
+            margin-left: -64px;
+            }
+
+rectangle3 {
+           
+            height: 512px;
+            width: 128px;
+            min-width: 100px;
+            margin-left: -64px;
+            }
+
+rectangle4 {
+            height: 512px;
+            width: 128px;
+            min-width: 100px;
+            margin-left: -64px;
+            }
+
+rectangle5 {
+           
+            height: 512px;
+            width: 128px;
+            min-width: 100px;
+            margin-left: -64px;
+            }  
+    
+body .overlay    {  
+		
+            height: 512px;
+            width: 128px;
+
+    }
+      
+      
+    body  .Bottom {
+
+    width:800px;
+	
+	margin-left: -400px;
+}
+body .Bottom_elements {
+  
+    width:calc(50% - 16px);
+    width:-webkit-calc(50% - 16px);
+    margin:4px;
+    font-size:75px;
+}
+      
+}
+
+/* Portrait */
+@media 
+  (max-device-width: 800px) 
+  and (orientation: portrait) { 
+      
+body    .container {
+      width: 800px;
+     margin-left: -400px;
+            height: 1000px; /* Height can be anything */
+        margin-top: -500px;
+      }
+
+            body .birb {
+ 			
+    height: 120px;
+    width: 688px;
+            margin-left: -344px;
+			margin-top: -60px;
+}  
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example1 {
+    0%   {left:13%; top:-100%;opacity: 0;}
+    100% {left:13%; top:10%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example1 {
+    0%   {left:13%; top:-100%;opacity: 0;}
+    100% {left:13%; top:10%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example2 {
+    0%   {left: 31.5%; top:-100%;opacity: 0;}
+    100% {left: 31.5%; top:10%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example2 {
+    0%   {left: 31.5%; top:-100%;opacity: 0;}
+    100% {left: 31.5%; top:10%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example3 {
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:10%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example3 {
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:10%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example4 {
+    0%   {left:68.5%; top:-100%;opacity: 0;}
+    100% {left:68.5%; top:10%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example4 {
+    0%   {left:68.5%; top:-100%;opacity: 0;}
+    100% {left:68.5%; top:10%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example5 {
+    0%   {left:87%; top:-100%;opacity: 0;}
+    100% {left:87%; top:10%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example5 {
+    0%   {left:87%; top:-100%;opacity: 0;}
+    100% {left:87%; top:10%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example6 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:72%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example6 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:72%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example7 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:69%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example7 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:69%;opacity: 1;}
+}
+      
+}
+
+/* Landscape */
+@media 
+  (max-device-width: 1280px) 
+  and (orientation: landscape) { 
+      
+ body    .container {
+      width: 1200px;
+     margin-left: -600px;
+      }
+      
+            body .birb {
+ 			
+    height: 120px;
+    width: 788px;
+            margin-left: -394px;
+			margin-top: -60px;
+}  
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example1 {
+    0%   {left:21%; top:-100%;opacity: 0;}
+    100% {left:21%; top:4%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example1 {
+    0%   {left:21%; top:-100%;opacity: 0;}
+    100% {left:21%; top:5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example2 {
+    0%   {left: 35.5%; top:-100%;opacity: 0;}
+    100% {left: 35.5%; top:5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example2 {
+    0%   {left: 35.5%; top:-100%;opacity: 0;}
+    100% {left: 35.5%; top:5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example3 {
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example3 {
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example4 {
+    0%   {left:64.5%; top:-100%;opacity: 0;}
+    100% {left:64.5%; top:5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example4 {
+    0%   {left:64.5%; top:-100%;opacity: 0;}
+    100% {left:64.5%; top:5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example5 {
+    0%   {left:79%; top:-100%;opacity: 0;}
+    100% {left:79%; top:5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example5 {
+    0%   {left:79%; top:-100%;opacity: 0;}
+    100% {left:79%; top:5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example6 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:79%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example6 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:79%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example7 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:73%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example7 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:73%;opacity: 1;}
+}      
+      
+}
 
 .overlay    {  
 		Display:block;
@@ -593,3 +1893,49 @@ rectangle5:hover .overlay {
 margin-left: -720px;
     margin-top: -450px;
             }
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.container_mobile {
+    display: none;
+    width: 100%;
+    padding-left: 2px;
+    padding-right: 2px;
+    -webkit-animation-name: example8; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 0s; /* Safari 4.0 - 8.0 */
+    animation-name: example8;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.container_mobile-content {
+    position: relative;
+    top: 5%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: left; /* Centered text/links */
+    margin-top: 40px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+.container_mobile a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 40px;
+    color: #fff;
+    display: block; /* Display block instead of inline */
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.50);
+}
+
+.container_mobile img{
+    max-height: 95%;
+    max-width: 95%;
+    -webkit-filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.50));
+  -moz-filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.50));
+  -ms-filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.50));
+  -o-filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.50));
+  filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.50));
+}

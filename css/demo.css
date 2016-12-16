@@ -45,6 +45,7 @@ display:block;}
     margin-right: auto;
     padding-left: 10px;
     padding-right: 10px;
+    font-size: 75px;
 }
 
 .container1{
@@ -102,6 +103,7 @@ display:block;}
     align-content: center;
     object-fit: contain;
     word-wrap: break-word;
+    font-size: 75px;
 }
 .gridder-list{
     width:15.83333%
@@ -190,4 +192,262 @@ a:visited {
 
 .Bottom_elements:hover {
     opacity: 1;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 20px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav img {
+     max-height: 100%;
+    max-width: 100%;
+}
+
+#main {
+    transition: margin-left .5s;
+}
+
+.hamburger {
+    font-size:50px;
+    cursor:pointer; 
+    float:right; 
+    vertical-align:bottom; 
+    color: #fff;
+    ms-transform: translate(0px, 25px);
+    -webkit-transform: translate(0px, 25px);
+    transform: translate(0px, 25px); 
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.75);
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+       body .container{
+          font-size: 30px;
+      ms-transform: translate(0px, 10px);
+    -webkit-transform: translate(0px,10px);
+    transform: translate(0px, 10px); 
+      }
+      body .gridder-content{
+          font-size: 30px;
+      }
+      body .container1{
+           width: 99%;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+      }
+      
+      body .hamburger{
+      font-size:35px;
+          ms-transform: translate(0px, -5px);
+    -webkit-transform: translate(0px,-5px);
+    transform: translate(0px, -5px); 
+      }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+       body .container{
+          font-size: 30px;
+      ms-transform: translate(0px, 10px);
+    -webkit-transform: translate(0px,10px);
+    transform: translate(0px, 10px); 
+      }
+      body .gridder-content{
+          font-size: 30px;
+      }
+      body .container1{
+           width: 99%;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+      }
+      
+      body .hamburger{
+      font-size:35px;
+          ms-transform: translate(0px, -5px);
+    -webkit-transform: translate(0px,-5px);
+    transform: translate(0px, -5px); 
+      }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+   body .container{
+       font-size: 50px;}
+      body .hamburger{
+      font-size:40px;
+          ms-transform: translate(0px, 5px);
+    -webkit-transform: translate(0px,5px);
+    transform: translate(0px, 5px); 
+      }
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+       body .container{
+          font-size: 45px;}
+      body .gridder-content{
+          font-size: 30px;
+      }
+      body .container1{
+           width: 99%;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+      }
+      
+      body .hamburger{
+      font-size:35px;
+          ms-transform: translate(0px, 10px);
+    -webkit-transform: translate(0px, 10px);
+    transform: translate(0px, 10px); 
+      }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+       body .container{
+          font-size: 50px;}
+      body .gridder-content{
+          font-size: 30px;
+      }
+      body .container1{
+           width: 99%;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+      }
+      
+      body .hamburger{
+      font-size:35px;
+          ms-transform: translate(0px, 15px);
+    -webkit-transform: translate(0px, 15px);
+    transform: translate(0px, 15px); 
+      }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
 }

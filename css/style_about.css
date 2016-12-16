@@ -4,62 +4,60 @@ body {
     background-size:cover;
     background-attachment: fixed;
     background-position: center; 
-    overflow-y:hidden; 
     overflow-x:hidden; 
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example1 {
-    0%   {left:35%; top:-100%;opacity: 0;}
-    100% {left:35%; top:3%;opacity: 1;}
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example1 {
-    0%   {left:35%; top:-100%;opacity: 0;}
-    100% {left:35%; top:3%;opacity: 1;}
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example2 {
-    0%   {left: 35%; top:200%;opacity: 0;}
-    100% {left: 35%; top:46%;opacity: 1;}
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example2 {
-    0%   {left: 35%; top:200%;opacity: 0;}
-    100% {left: 35%; top:46%;opacity: 1;}
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example3 {
-    0%   {left:50%; top:200%;opacity: 0;}
-    100% {left:50%; top:98%;opacity: 1;}
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example3 {
-    0%   {left:50%; top:200%;opacity: 0;}
-    100% {left:50%; top:98%;opacity: 1;}
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example4 {
-    0%   {left:66%; top:-100%;opacity: 0;}
-    100% {left:66%; top:48%;opacity: 1;}
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example4 {
-    0%   {left:66%; top:-100%;opacity: 0;}
-    100% {left:66%; top:48%;opacity: 1;}
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
 }
 
-portrait {
-    position: absolute;
-    width: 350px;
-    height: 350px;
+.portrait {
+    position: relative;
+    width: 100%;
     -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
     -webkit-animation-delay: 0s; /* Safari 4.0 - 8.0 */
@@ -68,7 +66,12 @@ portrait {
     animation-delay: 0s;
     animation-fill-mode: forwards;
     opacity: 0;
-    margin-left: -175px;
+    margin:auto;
+    text-align: center;
+}
+
+portrait img{
+    margin: auto;
 }
 
 .column, .inner {
@@ -79,14 +82,16 @@ Column1, .inner {
     display: block;
 }
 
+Column1, .inner1 {
+    display: block;
+}
 
 Column1 {
-    position: absolute;
+    position: relative;
     background-color: rgba(107, 187, 233, .25);
     color:white;
     padding: 15px;
-    width: 350px;
-    height: 400px;
+    height: 80%;
     -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
     -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
@@ -96,18 +101,20 @@ Column1 {
     animation-fill-mode: forwards;
     opacity: 0;
     vertical-align: top;
-    margin-left: -175px;
+    margin:auto;
+    float: left;
+    display: inline-block;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 Column2 {
-    position: absolute;
+    position: relative;
     background-color: rgba(107, 187, 233, .25);
     color:white;
     padding: 25px;
-    width: 500px;
-    height: 765px;
+    height: 100%;
+    width: 52%;
     -webkit-animation-name: example4; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
     -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
@@ -117,8 +124,9 @@ Column2 {
     animation-fill-mode: forwards;
     opacity: 0;
     vertical-align: top;
-    margin-left: -250px;
-    margin-top: -382.5px;
+    float: left;
+    margin-left: 1em;
+    display: inline-block;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
@@ -127,11 +135,21 @@ Column2 {
 .inner {
     /* specify padding, can be changed while remaining fixed width of .outer */
     padding: 5px;
-    line-height: 70%;
+    width:26%;
+    float: left;
+    display: inline-block;
+}
+
+.inner1 {
+    float: left;
+    padding: 5px;
+    display: inline-block;
+    width: 64%;
+    margin-left: 2em;
 }
 
 .birb {
- 			position: absolute;
+ 			position: relative;
 			-webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
     -webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
@@ -140,15 +158,296 @@ Column2 {
     animation-delay: 3s;
     animation-fill-mode: forwards;
     opacity: 0;
-            margin-left: -40px;
+    width: 80%;
+    margin: auto;
+    margin-top: 36px;
+    padding: 20px;
+    display: block;
+}
+
+.birb a{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
 }
 
 .container {
-    position: absolute;
-            width: 1440px; /* Firefox needs this */
-            height: 850px; /* Height can be anything */
-    left: 50%;
-    top: 50%;
-margin-left: -720px;
-    margin-top: -450px;
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
             }
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 20px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav img {
+     max-height: 100%;
+    max-width: 100%;
+}
+
+#main {
+    transition: margin-left .5s;
+}
+
+.hamburger {
+    font-size:50px;
+    cursor:pointer; 
+    float:right; 
+    vertical-align:bottom; 
+    color: #fff;
+    ms-transform: translate(0px, 140px);
+    -webkit-transform: translate(0px, 140px);
+    transform: translate(0px, 140px); 
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.75);
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.container3{
+    position: relative;
+    display: block;
+    -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 0s; /* Safari 4.0 - 8.0 */
+    animation-name: example1;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 75px;
+    margin-top: -8%;
+}
+
+.translate{
+    ms-transform: translate(0px, 50px);
+    -webkit-transform: translate(0px, 50px);
+    transform: translate(0px, 50px); 
+}
+
+.Bottom {
+	position:relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 1;
+    bottom: 0px;
+    float: right;
+}
+.Bottom_elements {
+    color:#fff; 
+	text-align:center;
+    display:inline-block;
+    width:calc(20%);
+    width:-webkit-calc(20%);
+    margin:4px;
+    opacity: .75;
+}
+
+.Bottom_elements img {
+    width: 75px;
+    height: 75px;
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+body .inner{
+          text-align: center;
+          width: 96%;
+          display: block;
+      }
+      body .inner1{
+          text-align: center;
+          width: 96%;
+              display:block;
+          margin-left: 0;
+      }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+body .inner{
+          text-align: center;
+          width: 96%;
+          display: block;
+      }
+      body .inner1{
+          text-align: center;
+          width: 96%;
+              display:block;
+          margin-left: 0;
+      }
+    
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+   
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+body .inner{
+          text-align: center;
+          width: 96%;
+          display: block;
+      }
+      body .inner1{
+          text-align: center;
+          width: 96%;
+              display:block;
+          margin-left: 0;
+      }
+      
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+      body .inner{
+          text-align: center;
+          width: 96%;
+          display: block;
+      }
+      body .inner1{
+          text-align: center;
+          width: 96%;
+              display:block;
+          margin-left: 0;
+      }
+       
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
